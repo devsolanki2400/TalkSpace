@@ -20,7 +20,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Slack Clone",
+  title: "NexChat",
 };
 
 export default function RootLayout({
