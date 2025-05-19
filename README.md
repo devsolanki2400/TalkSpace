@@ -1,10 +1,28 @@
-# Slack Clone
+# TalkSpace - Real-Time Chat Application
 
-This is a Slack clone, built with [Next.js](https://nextjs.org/), [shadcn/ui](https://ui.shadcn.com/) component library, [convex](https://www.convex.dev/) database and auth, following this [tutorial](https://www.youtube.com/watch?v=lXITA5MZIiI) by [Code with Antonio](https://www.youtube.com/@codewithantonio).
+TalkSpace is a modern, real-time chat application built to facilitate instant messaging with features like chat rooms, private messaging, and user profiles.
 
-The application is deployed on Vercel [here](https://slack-clone-green-omega.vercel.app/).
+---
 
-## Note
+## 💬 Project Overview
 
-1. For the API hooks, [@tanstack/react-query](https://tanstack.com/query/latest) is used to wrap the `useQuery` and `useMutation` hook from `@convex/react`.
-2. For form, [react-hook-form](https://react-hook-form.com/) is used.
+TalkSpace allows users to:
+
+- Join public chat rooms and participate in group conversations  
+- Send private messages to other users  
+- Create and manage user profiles with authentication  
+- Experience real-time messaging powered by WebSockets/SignalR  
+
+---
+
+## ⚙️ Technology Stack
+
+- **Frontend:** React.js, JavaScript, HTML, CSS  
+- **Backend:** ASP.NET Core with SignalR / Spring Boot with WebSocket  
+- **Database:** Firebase / PostgreSQL  
+- **Authentication:** JWT Tokens  
+- **Real-Time Communication:** WebSockets / SignalR  
+
+---
+
+
